@@ -1,20 +1,20 @@
-import { MapPin, Clock } from 'lucide-react'
+import { MapPin, Clock } from "lucide-react";
 
 export default function ServiceAreas() {
   const areas = [
-    'Palm Springs',
-    'Palm Desert',
-    'Rancho Mirage',
-    'Indian Wells',
-    'La Quinta',
-    'Cathedral City',
-    'Indio',
-    'Desert Hot Springs',
-    'Bermuda Dunes',
-  ]
+    "Palm Springs",
+    "Palm Desert",
+    "Rancho Mirage",
+    "Indian Wells",
+    "La Quinta",
+    "Cathedral City",
+    "Indio",
+    "Desert Hot Springs",
+    "Bermuda Dunes",
+  ];
 
   return (
-    <section className="py-20 bg-white">
+    <section id="areas" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -22,7 +22,8 @@ export default function ServiceAreas() {
             Trusted Home Care Throughout Coachella Valley
           </h2>
           <p className="text-xl text-gray-700">
-            Personalized, Compassionate Home Care—Designed for Your Family's Needs
+            Personalized, Compassionate Home Care—Designed for Your Family's
+            Needs
           </p>
           <div className="w-20 h-1 bg-[#7bb52d] mx-auto mt-4"></div>
         </div>
@@ -55,20 +56,35 @@ export default function ServiceAreas() {
             </h3>
             <div className="space-y-4">
               <div className="bg-gradient-to-r from-[#532B9D]/10 to-[#7bb52d]/10 rounded-lg p-6">
-                <h4 className="font-bold text-gray-900 mb-2">Full 24-Hour Care</h4>
-                <p className="text-gray-700">Round-the-clock caregiver assistance for continuous support</p>
+                <h4 className="font-bold text-gray-900 mb-2">
+                  Full 24-Hour Care
+                </h4>
+                <p className="text-gray-700">
+                  Round-the-clock caregiver assistance for continuous support
+                </p>
               </div>
               <div className="bg-gradient-to-r from-[#532B9D]/10 to-[#7bb52d]/10 rounded-lg p-6">
-                <h4 className="font-bold text-gray-900 mb-2">Part-Time Support</h4>
-                <p className="text-gray-700">Flexible schedules to fit your family's specific needs</p>
+                <h4 className="font-bold text-gray-900 mb-2">
+                  Part-Time Support
+                </h4>
+                <p className="text-gray-700">
+                  Flexible schedules to fit your family's specific needs
+                </p>
               </div>
               <div className="bg-gradient-to-r from-[#532B9D]/10 to-[#7bb52d]/10 rounded-lg p-6">
                 <h4 className="font-bold text-gray-900 mb-2">Respite Care</h4>
-                <p className="text-gray-700">Temporary relief so families can recharge and spend quality time together</p>
+                <p className="text-gray-700">
+                  Temporary relief so families can recharge and spend quality
+                  time together
+                </p>
               </div>
               <div className="bg-gradient-to-r from-[#532B9D]/10 to-[#7bb52d]/10 rounded-lg p-6">
-                <h4 className="font-bold text-gray-900 mb-2">24/7 Availability</h4>
-                <p className="text-gray-700">Services available weekends, holidays, and special occasions</p>
+                <h4 className="font-bold text-gray-900 mb-2">
+                  24/7 Availability
+                </h4>
+                <p className="text-gray-700">
+                  Services available weekends, holidays, and special occasions
+                </p>
               </div>
             </div>
           </div>
@@ -79,20 +95,34 @@ export default function ServiceAreas() {
           <h3 className="text-2xl font-bold mb-6">What We Specialize In</h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h4 className="text-lg font-semibold mb-3 text-[#7bb52d]">Senior Care</h4>
-              <p className="text-gray-100">Comprehensive care tailored for the specific needs of aging seniors</p>
+              <h4 className="text-lg font-semibold mb-3 text-[#7bb52d]">
+                Senior Care
+              </h4>
+              <p className="text-gray-100">
+                Comprehensive care tailored for the specific needs of aging
+                seniors
+              </p>
             </div>
             <div>
-              <h4 className="text-lg font-semibold mb-3 text-[#7bb52d]">Post-Hospital Recovery</h4>
-              <p className="text-gray-100">Professional care during recovery period following hospitalization</p>
+              <h4 className="text-lg font-semibold mb-3 text-[#7bb52d]">
+                Post-Hospital Recovery
+              </h4>
+              <p className="text-gray-100">
+                Professional care during recovery period following
+                hospitalization
+              </p>
             </div>
             <div>
-              <h4 className="text-lg font-semibold mb-3 text-[#7bb52d]">Companionship Services</h4>
-              <p className="text-gray-100">Emotional support and engaging activities for overall well-being</p>
+              <h4 className="text-lg font-semibold mb-3 text-[#7bb52d]">
+                Companionship Services
+              </h4>
+              <p className="text-gray-100">
+                Emotional support and engaging activities for overall well-being
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
